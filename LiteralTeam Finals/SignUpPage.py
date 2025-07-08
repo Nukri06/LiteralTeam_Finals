@@ -29,7 +29,7 @@ class Ui_SignUpPage(object):
         self.label.setMinimumSize(QtCore.QSize(1920, 1080))
         self.label.setMaximumSize(QtCore.QSize(1920, 1080))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("Pics/LogInPic.png"))
+        self.label.setPixmap(QtGui.QPixmap("LogInPic.png"))
         self.label.setObjectName("label")
         self.LogInLabel = QtWidgets.QLabel(self.centralwidget)
         self.LogInLabel.setGeometry(QtCore.QRect(500, 230, 911, 591))
